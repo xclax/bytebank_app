@@ -23,7 +23,7 @@ class Editor extends StatelessWidget {
       child: TextField(
         controller: _textEditingController,
         keyboardType: TextInputType.number,
-        style: TextStyle(fontSize: 24.0),
+        style: TextStyle(fontSize: 18.0),
         decoration: InputDecoration(
             labelText: _labelText, hintText: _hintText, icon: _icon),
       ),

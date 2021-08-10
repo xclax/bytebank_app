@@ -1,6 +1,6 @@
 import 'package:bytebank_app/database/dao/contact_dao.dart';
 import 'package:bytebank_app/models/contact.dart';
-import 'package:bytebank_app/screens/contatos/contact_form_page.dart';
+import 'package:bytebank_app/screens/contact/contact_form_page.dart';
 import 'package:bytebank_app/widgets/loading_progress_centered_widget.dart';
 import 'package:flutter/material.dart';
 

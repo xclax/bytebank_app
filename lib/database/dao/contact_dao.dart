@@ -10,7 +10,7 @@ class ContactDao {
       'name TEXT, '
       'account_number INTEGER )';
 
-  static const String tableName = 'contacts';
+  static const String tableName = 'contact';
   static const String id = 'id';
   static const String name = 'name';
   static const String accountNumber = 'account_number';
