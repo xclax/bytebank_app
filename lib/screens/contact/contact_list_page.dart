@@ -1,6 +1,7 @@
 import 'package:bytebank_app/database/dao/contact_dao.dart';
 import 'package:bytebank_app/models/contact.dart';
 import 'package:bytebank_app/screens/contact/contact_form_page.dart';
+import 'package:bytebank_app/screens/transaction/transaction_form_page.dart';
 import 'package:bytebank_app/widgets/loading_progress_centered_widget.dart';
 import 'package:flutter/material.dart';
 
@@ -40,6 +41,8 @@ class _ContactListPageState extends State<ContactListPage> {
                     itemBuilder: (BuildContext context, int index) {
                       return Card(
                         child: ListTile(
+                            onTap: () => goToTransactionFormPage(
+                                context, contactList[index]),
                             title: Text(contactList[index].name.toString()),
                             subtitle: Text(
                                 contactList[index].accountNumber.toString()),
@@ -72,9 +75,21 @@ class _ContactListPageState extends State<ContactListPage> {
   }
 
   Future<dynamic> goToContactFormPage(BuildContext context) async {
+    setState(() {});
+    return await Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => ContactFormPage(),
+        )).then(
+      (value) => setState(() {}),
+    );
+  }
+
+  Future<dynamic> goToTransactionFormPage(
+      BuildContext context, Contact contact) async {
     final result =
         await Navigator.push(context, MaterialPageRoute(builder: (context) {
-      return ContactFormPage();
+      return TransactionFormPage(contact);
     }));
   }
 }

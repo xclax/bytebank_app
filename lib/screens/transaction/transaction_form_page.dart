@@ -1,58 +1,83 @@
-import 'package:bytebank_app/widgets/editor_text_form.dart';
+import 'package:bytebank_app/models/contact.dart';
+import 'package:bytebank_app/models/transaction.dart';
+import 'package:bytebank_app/network/webclients/transaction_webclient.dart';
 import 'package:flutter/material.dart';
 
 class TransactionFormPage extends StatefulWidget {
-  const TransactionFormPage({Key? key}) : super(key: key);
+  final Contact contact;
+
+  TransactionFormPage(this.contact);
 
   @override
   _TransactionFormPageState createState() => _TransactionFormPageState();
 }
 
 class _TransactionFormPageState extends State<TransactionFormPage> {
-  TextEditingController _textEditingControllerAccountNumber =
-      TextEditingController();
-  TextEditingController _textEditingControllerValue = TextEditingController();
-  static const title = 'New Transaction';
-  static const hintTextAccount = '0000';
-  static const hintTextValue = '100.00';
-  static const labelTextAccount = 'Account Number';
-  static const labelTextValue = 'Value';
-  static const buttonTextConfirm = 'Confirm';
+  final TextEditingController _valueController = TextEditingController();
+  final TransactionWebClient _transactionWebClient = TransactionWebClient();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text(title),
-        ),
-        body: SingleChildScrollView(
+      appBar: AppBar(
+        title: Text('New transaction'),
+      ),
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(16.0),
           child: Column(
-            children: [
-              Editor(
-                textEditingController: _textEditingControllerAccountNumber,
-                hintText: hintTextAccount,
-                labelText: labelTextAccount,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Text(
+                widget.contact.name,
+                style: TextStyle(
+                  fontSize: 20.0,
+                ),
               ),
-              Editor(
-                textEditingController: _textEditingControllerValue,
-                hintText: hintTextValue,
-                labelText: labelTextValue,
+              Padding(
+                padding: const EdgeInsets.only(top: 16.0),
+                child: Text(
+                  widget.contact.accountNumber.toString(),
+                  style: TextStyle(
+                    fontSize: 28.0,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
               ),
-              ElevatedButton(
-                  onPressed: () {
-                    // createTransaction(context);
-                  },
-                  child: Text(buttonTextConfirm))
+              Padding(
+                padding: const EdgeInsets.only(top: 16.0),
+                child: TextField(
+                  controller: _valueController,
+                  style: TextStyle(fontSize: 18.0),
+                  decoration: InputDecoration(labelText: 'Value'),
+                  keyboardType: TextInputType.numberWithOptions(decimal: true),
+                ),
+              ),
+              Padding(
+                padding: const EdgeInsets.only(top: 16.0),
+                child: SizedBox(
+                  width: double.maxFinite,
+                  child: ElevatedButton(
+                    child: Text('Transfer'),
+                    onPressed: () {
+                      final double? value =
+                          double.tryParse(_valueController.text);
+                      if (value != null) {
+                        final transactionCreated =
+                            Transaction(value: value, contact: widget.contact);
+
+                        _transactionWebClient
+                            .save(transactionCreated)
+                            .then((value) => Navigator.pop(context));
+                      }
+                    },
+                  ),
+                ),
+              )
             ],
           ),
-        ));
+        ),
+      ),
+    );
   }
-
-  // void createTransaction(BuildContext context) {
-  //   final Contact? contact =
-  //       int.tryParse(_textEditingControllerAccountNumber.text);
-  //   final double? valor = double.tryParse(_textEditingControllerValue.text);
-  //
-  //   final transaction = Transaction(valor!, contact!);
-  //   Navigator.pop(context, transaction);
-  // }
 }

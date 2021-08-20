@@ -2,9 +2,9 @@ import 'package:bytebank_app/models/transaction.dart';
 import 'package:flutter/material.dart';
 
 class TransactionItemWidget extends StatelessWidget {
-  final Transaction _transaction;
+  final Transaction transaction;
 
-  TransactionItemWidget(this._transaction);
+  TransactionItemWidget({required this.transaction});
 
   @override
   Widget build(BuildContext context) {
@@ -12,14 +12,14 @@ class TransactionItemWidget extends StatelessWidget {
       child: ListTile(
         leading: Icon(Icons.monetization_on),
         title: Text(
-          _transaction.value.toString(),
+          transaction.value.toString(),
           style: TextStyle(
             fontSize: 20.0,
             fontWeight: FontWeight.bold,
           ),
         ),
         subtitle: Text(
-          _transaction.contact.accountNumber.toString(),
+          transaction.contact.accountNumber.toString(),
           style: TextStyle(
             fontSize: 16.0,
           ),

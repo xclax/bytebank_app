@@ -23,29 +23,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0a614fe-9a15-41b1-a012-48ac0df291de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/models/transaction.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/transaction/transaction_form_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screens/transaction/transaction_list_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/widgets/transaction_item_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/.filecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/app.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/debug_android_application.stamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/flutter_assets.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/flutter_assets.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/kernel_snapshot.d" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/kernel_snapshot.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/kernel_snapshot.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/f330df0650481dd7e2b8f16a6d0f2c48/kernel_snapshot.stamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/database/dao/contact_dao.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/database/dao/contact_dao.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/4f2a58af27abc49ecf55570043bbf938.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/NOTICES.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/NOTICES.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/compressed_assets/debug/out/assets/flutter_assets/kernel_blob.bin.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/models/transferencia.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/contatos/contact_form_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/contact/contact_form_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/contatos/contact_list.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/contact/contact_list_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/dashboard_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/dashboard_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/transferencia/formulario_transferencias_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/screens/transferencia/lista_transferencias_page.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/editor_text_form.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/editor_text_form.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/widgets/item_transferencia_widget.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/contact.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/contact.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/transaction.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/transaction.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/network/webclient.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/network/webclient.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/contact/contact_list_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/contact/contact_list_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/transaction/transaction_form_page.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/transaction/transaction_list_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/transaction/transaction_list_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/transaction_item_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/transaction_item_widget.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,20 +82,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/screens/transaction" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\Flutter\bytebank_app\lib\screens\transaction" />
+      <recent name="C:\Projects\Flutter\bytebank_app\lib\widgets" />
+      <recent name="C:\Projects\Flutter\bytebank_app\assets\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Projects\Flutter\bytebank_app\lib\screens\contatos" />
       <recent name="C:\Projects\Flutter\bytebank_app" />
       <recent name="C:\Projects\Flutter\bytebank_app\lib\screens\transferencia" />
       <recent name="C:\Projects\Flutter\bytebank_app\lib\screens" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Projects\Flutter\bytebank_app\lib\widgets" />
-      <recent name="C:\Projects\Flutter\bytebank_app\assets\images" />
     </key>
   </component>
   <component name="RunManager">
